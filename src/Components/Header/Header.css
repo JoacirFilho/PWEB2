@@ -1,0 +1,33 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #002eac;
+    height: 100px;
+    padding: 0px 100px;
+    align-items: center;
+}
+
+.title_topo {
+    color: #fff;
+    font-size: 34px;
+}
+
+.nav-container{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.nav{
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.nav-container a:hover, .nav-container a.active {
+    color: #E6E327;
+}
